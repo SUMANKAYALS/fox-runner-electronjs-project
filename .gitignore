@@ -1,0 +1,62 @@
+# =====================
+# Node.js
+# =====================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =====================
+# Electron build output
+# =====================
+dist/
+out/
+build/
+
+# =====================
+# Electron cache
+# =====================
+.cache/
+.electron/
+.electron-builder/
+
+# =====================
+# OS files
+# =====================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# =====================
+# Logs
+# =====================
+logs/
+*.log
+
+# =====================
+# Editor / IDE
+# =====================
+.vscode/
+.idea/
+*.swp
+
+# =====================
+# Environment variables
+# =====================
+.env
+.env.local
+.env.production
+
+# =====================
+# Temporary / backup files
+# =====================
+*.tmp
+*.bak
+*.old
+
+# =====================
+# Optional: game assets cache
+# =====================
+*.psd
+*.blend

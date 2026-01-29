@@ -1,0 +1,39 @@
+{
+  "name": "fox-runner",
+  "version": "1.0.0",
+  "description": "Pixel runner game built with Electron",
+  "main": "main.js",
+  "author": "Sky",
+  "license": "MIT",
+  "type": "commonjs",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "build": {
+    "appId": "com.sky.foxrunner",
+    "productName": "Fox Runner",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "**/*"
+    ],
+    "forceCodeSigning": false,
+    "win": {
+      "icon": "assets/foxlogo.ico",
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ]
+    }
+  },
+  "devDependencies": {
+    "electron": "^40.1.0",
+    "electron-builder": "^26.4.0"
+  }
+}
